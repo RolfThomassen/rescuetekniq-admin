@@ -1,0 +1,9 @@
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\bin\Debug\netstandard2.0\Rescuetekniq.deps.json
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\bin\Debug\netstandard2.0\Rescuetekniq.dll
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\bin\Debug\netstandard2.0\Rescuetekniq.pdb
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\obj\Debug\netstandard2.0\Rescuetekniq.csprojAssemblyReference.cache
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\obj\Debug\netstandard2.0\Rescuetekniq.csproj.CoreCompileInputs.cache
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\obj\Debug\netstandard2.0\Rescuetekniq.AssemblyInfoInputs.cache
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\obj\Debug\netstandard2.0\Rescuetekniq.AssemblyInfo.cs
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\obj\Debug\netstandard2.0\Rescuetekniq.dll
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq\obj\Debug\netstandard2.0\Rescuetekniq.pdb

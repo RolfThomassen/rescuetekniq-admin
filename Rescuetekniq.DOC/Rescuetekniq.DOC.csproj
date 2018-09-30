@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{94D19BCE-E933-46F6-9C29-92F2859FB217}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rescuetekniq.DOC</RootNamespace>
+    <AssemblyName>Rescuetekniq.DOC</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Company\Company.cs" />
+    <Compile Include="Invoice\IncassoForm_Dk.cs" />
+    <Compile Include="Invoice\InvoiceForm_Dk.cs" />
+    <Compile Include="Invoice\OrderForm_Dk.cs" />
+    <Compile Include="Invoice\PDF_IncassoForm_Dk.cs" />
+    <Compile Include="Invoice\PDF_InvoiceForm.cs" />
+    <Compile Include="Invoice\PDF_InvoiceForm_Dk.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseOrder\PurchaseOrderForm_Dk.cs" />
+    <Compile Include="PurchaseOrder\PurchaseOrderForm_PDF.cs" />
+    <Compile Include="PurchaseOrder\PurchaseOrderForm_PDF_Dk.cs" />
+    <Compile Include="Registering\AEDtrainer\AEDregistering_Dk.cs" />
+    <Compile Include="Registering\AEDtrainer\PDF_AEDregistering.cs" />
+    <Compile Include="Registering\AEDtrainer\PDF_AEDregistering_Dk.cs" />
+    <Compile Include="Registering\AED\AEDregistering_Dk.cs" />
+    <Compile Include="Registering\AED\PDF_AEDregistering.cs" />
+    <Compile Include="Registering\AED\PDF_AEDregistering_Dk.cs" />
+    <Compile Include="Registering\EyeWash\Eyewash_registering_Dk.cs" />
+    <Compile Include="Registering\EyeWash\PDF_Eyewash_registering.cs" />
+    <Compile Include="Registering\EyeWash\PDF_Eyewash_registering_Dk.cs" />
+    <Compile Include="Registering\FirstAidBag\FAB_Registering_Dk.cs" />
+    <Compile Include="Registering\FirstAidBag\PDF_FAB_Registering.cs" />
+    <Compile Include="Registering\FirstAidBag\PDF_FirstAidBag_Registering_Dk.cs" />
+    <Compile Include="Test\program.cs" />
+    <Compile Include="Test\temp.cs" />
+    <Compile Include="Tilbud\PDF_TilbudFolgemail.cs" />
+    <Compile Include="Tilbud\PDF_TilbudFolgemail_Dk.cs" />
+    <Compile Include="Tilbud\TilbudFolgemail_Dk.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dependencies\MigraDoc.DocumentObjectModel.dll" />
+    <Content Include="Dependencies\MigraDoc.Rendering.dll" />
+    <Content Include="Dependencies\MigraDoc.RtfRendering.dll" />
+    <Content Include="Dependencies\PdfSharp.Charting.dll" />
+    <Content Include="Dependencies\PdfSharp.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rescuetekniq.BOL\Rescuetekniq.BOL.csproj">
+      <Project>{5d5447a2-e729-4bab-8ca3-db997c66fabf}</Project>
+      <Name>Rescuetekniq.BOL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rescuetekniq.COD\Rescuetekniq.CODE.csproj">
+      <Project>{cdc3f64e-8f1a-48c0-8ece-7c3b5a5dce08}</Project>
+      <Name>Rescuetekniq.CODE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

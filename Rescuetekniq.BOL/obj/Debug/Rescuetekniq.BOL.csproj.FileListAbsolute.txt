@@ -1,0 +1,2 @@
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.BOL\obj\Debug\Rescuetekniq.BOL.csprojAssemblyReference.cache
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.BOL\obj\Debug\Rescuetekniq.BOL.csproj.CoreCompileInputs.cache

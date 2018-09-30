@@ -1,0 +1,5 @@
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.COD\bin\Debug\Rescuetekniq.CODE.dll
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.COD\bin\Debug\Rescuetekniq.CODE.pdb
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.COD\obj\Debug\Rescuetekniq.CODE.csproj.CoreCompileInputs.cache
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.COD\obj\Debug\Rescuetekniq.CODE.dll
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.COD\obj\Debug\Rescuetekniq.CODE.pdb

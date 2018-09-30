@@ -1,0 +1,2 @@
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.DOC\obj\Debug\Rescuetekniq.DOC.csprojAssemblyReference.cache
+C:\Users\rolft\Source\Repos\Rescuetekniq Admin CSharp\Rescuetekniq\Rescuetekniq.DOC\obj\Debug\Rescuetekniq.DOC.csproj.CoreCompileInputs.cache

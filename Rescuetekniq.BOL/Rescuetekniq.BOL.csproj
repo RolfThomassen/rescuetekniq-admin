@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D5447A2-E729-4BAB-8CA3-DB997C66FABF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rescuetekniq.BOL</RootNamespace>
+    <AssemblyName>Rescuetekniq.BOL</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOL\AED\AED.cs" />
+    <Compile Include="BOL\AED\AED_Battery.cs" />
+    <Compile Include="BOL\AED\AED_Electrod.cs" />
+    <Compile Include="BOL\AED\AED_Meetings.cs" />
+    <Compile Include="BOL\AED\AED_Redning.cs" />
+    <Compile Include="BOL\AED\AED_Service.cs" />
+    <Compile Include="BOL\AED\AED_Status.cs" />
+    <Compile Include="BOL\AED\AED_Trainer.cs" />
+    <Compile Include="BOL\Agents\Agents.cs" />
+    <Compile Include="BOL\Agents\AgentsStatus.cs" />
+    <Compile Include="BOL\Base\BaseAdvObject.cs" />
+    <Compile Include="BOL\Base\BaseObject.cs" />
+    <Compile Include="BOL\campaign\Campaign.cs" />
+    <Compile Include="BOL\campaign\CampaignCompany.cs" />
+    <Compile Include="BOL\campaign\CampaignStatus.cs" />
+    <Compile Include="BOL\currency\currency.cs" />
+    <Compile Include="BOL\dokumenter\Dokumenter.cs" />
+    <Compile Include="BOL\Eyewash\EyeWash.cs" />
+    <Compile Include="BOL\Eyewash\EyeWash_Bottle.cs" />
+    <Compile Include="BOL\Eyewash\EyeWash_Service.cs" />
+    <Compile Include="BOL\Eyewash\EyeWash_Status.cs" />
+    <Compile Include="BOL\FirstAidBag\FirstAidBag.cs" />
+    <Compile Include="BOL\FirstAidBag\FirstAidBag_Service.cs" />
+    <Compile Include="BOL\FirstAidBag\FirstAidBag_Status.cs" />
+    <Compile Include="BOL\Html\HtmlPageContent.cs" />
+    <Compile Include="BOL\infosite\InfositeContents.cs" />
+    <Compile Include="BOL\infosite\InfositePages.cs" />
+    <Compile Include="BOL\infosite\Infosites.cs" />
+    <Compile Include="BOL\Invoice\Incasso.cs" />
+    <Compile Include="BOL\Invoice\InvoiceHeader.cs" />
+    <Compile Include="BOL\Invoice\InvoiceLine.cs" />
+    <Compile Include="BOL\Invoice\InvoiceLineData.cs" />
+    <Compile Include="BOL\Invoice\InvoiceStatus.cs" />
+    <Compile Include="BOL\KundeGrp\KundeGrp.cs" />
+    <Compile Include="BOL\KundeGrp\KundeGrpStatus.cs" />
+    <Compile Include="BOL\KundeGrp\KundeGrp_Pris.cs" />
+    <Compile Include="BOL\kursus\KursusDag.cs" />
+    <Compile Include="BOL\kursus\KursusDeltager.cs" />
+    <Compile Include="BOL\kursus\KursusListe.cs" />
+    <Compile Include="BOL\kursus\KursusPolicy.cs" />
+    <Compile Include="BOL\kursus\KursusStatus.cs" />
+    <Compile Include="BOL\news\News.cs" />
+    <Compile Include="BOL\news\NewsGrp.cs" />
+    <Compile Include="BOL\news\NewsStatus.cs" />
+    <Compile Include="BOL\PurchageOrder\PurchaseOrder.cs" />
+    <Compile Include="BOL\PurchageOrder\PurchaseOrderItem.cs" />
+    <Compile Include="BOL\PurchageOrder\PurchaseStatus.cs" />
+    <Compile Include="BOL\Registering\Aiva\Aiva.cs" />
+    <Compile Include="BOL\Registering\Pax\Pax.cs" />
+    <Compile Include="BOL\Registering\PractiMan\PractiMan.cs" />
+    <Compile Include="BOL\system\Combobox.cs" />
+    <Compile Include="BOL\system\Debug.cs" />
+    <Compile Include="BOL\system\log.cs" />
+    <Compile Include="BOL\system\MembershipUserUtils.cs" />
+    <Compile Include="BOL\system\PageAccess.cs" />
+    <Compile Include="BOL\system\Postnr.cs" />
+    <Compile Include="BOL\system\SysParm.cs" />
+    <Compile Include="BOL\tilbud\test.cs" />
+    <Compile Include="BOL\tilbud\tilbud.cs" />
+    <Compile Include="BOL\tilbud\tilbudslinie.cs" />
+    <Compile Include="BOL\tilbud\tilbudsstatus.cs" />
+    <Compile Include="BOL\vare\Vare.cs" />
+    <Compile Include="BOL\vare\VareGrp.cs" />
+    <Compile Include="BOL\vare\VareStatus.cs" />
+    <Compile Include="BOL\virksomhed\Korrespondance.cs" />
+    <Compile Include="BOL\virksomhed\medarbejder\Medarbejder.cs" />
+    <Compile Include="BOL\virksomhed\medarbejder\MedarbejderGruppe.cs" />
+    <Compile Include="BOL\virksomhed\Noter.cs" />
+    <Compile Include="BOL\virksomhed\virksomhed.cs" />
+    <Compile Include="Email\SendEmail.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rescuetekniq.COD\Rescuetekniq.CODE.csproj">
+      <Project>{cdc3f64e-8f1a-48c0-8ece-7c3b5a5dce08}</Project>
+      <Name>Rescuetekniq.CODE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
